@@ -1,0 +1,315 @@
+[
+    {
+        "id": "1",
+        "slug": "home",
+        "appBar": {
+            "logoUrl": "https://www.indegene.com/sites/default/files/logo.svg",
+            "topMenu": [
+                "About us",
+                "News",
+                "Careers",
+                "Contact us"
+            ],
+            "menu": [
+                "Capabilities",
+                "Solutions",
+                "Technology",
+                "Segments",
+                "Insights"
+            ]
+        },
+        "hero": [
+            {
+                "title": "Our Purpose<br>To enable healthcare organizations<br> be future ready",
+                "image": "https://indegenerep.s3.ap-south-1.amazonaws.com/indegene/images/hero/hero-img.png",
+                "cta": "Learn More",
+                "ctaLink": "#"
+            },
+            {
+                "title": "70% physicians are not sure reps<br> understand their requirements",
+                "image": "https://indegenerep.s3.ap-south-1.amazonaws.com/images/hero-banner-5.jpg",
+                "cta": "Learn More",
+                "ctaLink": "#"
+            },
+            {
+                "title": "It is time to innovate at the<br> commercial end of the value chain",
+                "image": "https://indegenerep.s3.ap-south-1.amazonaws.com/images/hero-banner-3.jpeg",
+                "cta": "Learn More",
+                "ctaLink": "#"
+            }
+        ],
+        "intro": {
+            "description": "We are a technology-led healthcare solutions provider. We combine deep industry expertise with fit-for-purpose technology in an agile and scalable operating model. Many of the leading global healthcare organizations rely on us to deliver effective and efficient clinical, medical, and commercial outcomes every day. From strategy to execution, we enable healthcare organizations be future ready.",
+            "video": "https://indegenerep.s3.ap-south-1.amazonaws.com/videos/indegene-corporate-video.mp4"
+        },
+        "services": {
+            "id": "1",
+            "capabilities": {
+                "title": "Capabilities",
+                "subTitle": "We offer flexible engagement models to suit your unique needs",
+                "ctaGroup": [
+                    {
+                        "id": "1",
+                        "cta": "Consulting",
+                        "ctaLink": "#"
+                    },
+                    {
+                        "id": "2",
+                        "cta": "Enterprise COEs",
+                        "ctaLink": "#"
+                    },
+                    {
+                        "id": "3",
+                        "cta": "Co-Commercialization",
+                        "ctaLink": "#"
+                    }
+                ]
+            },
+            "solutions": {
+                "title": "Solutions",
+                "subTitle": "We partner with you all the way from development through commercialization",
+                "ctaGroup": [
+                    {
+                        "id": "1",
+                        "cta": "Clinical",
+                        "ctaLink": "#"
+                    },
+                    {
+                        "id": "2",
+                        "cta": "Medical",
+                        "ctaLink": "#"
+                    },
+                    {
+                        "id": "3",
+                        "cta": "Commercial",
+                        "ctaLink": "#"
+                    }
+                ]
+            },
+            "technology": {
+                "title": "Technology",
+                "subTitle": "We contextualize technology to make it fit-for-life sciences-purpose",
+                "ctaGroup": [
+                    {
+                        "id": "1",
+                        "cta": "NEXT",
+                        "ctaLink": "#"
+                    },
+                    {
+                        "id": "2",
+                        "cta": "Partners",
+                        "ctaLink": "#"
+                    }
+                ]
+            },
+            "segments": {
+                "title": "Segments",
+                "subTitle": "We apply a deep understanding of operations and business processes across",
+                "ctaGroup": [
+                    {
+                        "id": "1",
+                        "cta": "Biopharma",
+                        "ctaLink": "#"
+                    },
+                    {
+                        "id": "2",
+                        "cta": "Biotech",
+                        "ctaLink": "#"
+                    },
+                    {
+                        "id": "3",
+                        "cta": "Medical Technology",
+                        "ctaLink": "#"
+                    }
+                ]
+            }
+        },
+        "whatNew": [
+            {
+                "id": "1",
+                "heading": "What's New?",
+                "tag": "news",
+                "title": "Webinar – Learning and Development Trends",
+                "ctaLink": "#",
+                "image": "https://www.indegene.com/sites/default/files/learning-and-development-trends-thumb_0.jpg"
+            },
+            {
+                "id": "2",
+                "heading": "What's New?",
+                "tag": "Case Study",
+                "title": "Indegene Enables a Leading Consumer Brand to Expand Covered HCP Base for Prescriptions",
+                "ctaLink": "#",
+                "image": "https://www.indegene.com/sites/default/files/indegene-enables-leading-consumer-brand-expand-covered-hcp-base-prescriptions-thumb.jpg?itok=PQSu9k00"
+            },
+            {
+                "id": "3",
+                "heading": "What's New?",
+                "tag": "Video",
+                "title": "Learnings from MAPS 2022 Global Annual Meeting",
+                "ctaLink": "#",
+                "image": "https://www.indegene.com/sites/default/files/learnings-from-maps-2022-global-annual-meeting-thumbnail.jpg?itok=TWeYETqf"
+            },
+            {
+                "id": "4",
+                "heading": "What's New?",
+                "tag": "News",
+                "title": "Indegene teams with metaMe to launch gut-directed hypnotherapy digital therapeutic",
+                "ctaLink": "#",
+                "image": "https://www.indegene.com/sites/default/files/styles/responsive_image/adaptive-image/public/It-is-time-to-innovate-at-the-commercial-end-of-the-value-chain.jpg?itok=1vFXde15"
+            },
+            {
+                "id": "5",
+                "heading": "What's New?",
+                "tag": "Article",
+                "title": "The evolution of orphan PRMA environment in US, EU4, and UK. How much trouble ahead",
+                "ctaLink": "#",
+                "image": "https://www.indegene.com/sites/default/files/styles/responsive_image/adaptive-image/public/is-your-medical-affairs-organization-delivering-omnichannel-customer-experiences-thumbnail-img.jpg?itok=96uOApFq"
+            },
+            {
+                "id": "6",
+                "heading": "What's New?",
+                "tag": "Article",
+                "title": "Driving Growth for Small and Mid-sized Life Sciences Organizations Using Superior Web Experiences",
+                "ctaLink": "#",
+                "image": "https://www.indegene.com/sites/default/files/driving-growth-for-small-and-mid-sized-life-sciences-organizations-using-superior-web-experiences-thumb-img.jpg?itok=c3He2dpx"
+            }
+        ],
+        "careers": {
+            "title": "Join us and enable<br> #FutureReadyHealthcare",
+            "description": "You can expect accelerated, global growth opportunities if you are bold, industrious and nimble. We promise a differentiated career experience that celebrates entrepreneurship, and is guided by passion, innovation, collaboration and empathy.",
+            "ctaGroup": [
+                {
+                    "id": "1",
+                    "cta": "Learn about our culture",
+                    "ctaLink": ""
+                },
+                {
+                    "id": "2",
+                    "cta": "Explore exciting opportunities",
+                    "ctaLink": ""
+                }
+            ]
+        },
+        "trustedPartner": [
+            {
+                "id": "1",
+                "video": "https://indegenerep.s3.ap-south-1.amazonaws.com/indegene/videos/grunenthal-partners-with-indegene-for-its-commercial-transformation.mp4",
+                "resources": [
+                    {
+                        "id": "1212",
+                        "tag": "Case Study",
+                        "title": "A leading global pharma reduces time-to-patient-insights by 80% with Indegene Analytics"
+                    },
+                    {
+                        "id": "12234",
+                        "tag": "Case Study",
+                        "title": "Indegene Unifies Web Experience for a Global Pharma Company Across Geographies"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "video": "https://indegenerep.s3.ap-south-1.amazonaws.com/videos/mlr-of-the-future-accomplish-review%2C-approval-and-delivery-in-24-hours-video.mp4",
+                "resources": [
+                    {
+                        "id": "1212",
+                        "tag": "Case Study",
+                        "title": "An orphan drugmaker increases its market size by 40% with Indegene Analytics"
+                    },
+                    {
+                        "id": "12234",
+                        "tag": "Case Study",
+                        "title": "Indegene Unlocks 360º Customer Insights for the Launch of an Oncology Brand"
+                    }
+                ]
+            }
+        ],
+        "counter": [
+            {
+                "id": "1",
+                "title": "$2 Billion",
+                "subTitle": "Revenue Managed"
+            },
+            {
+                "id": "2",
+                "title": "100",
+                "subTitle": "Products Launched"
+            },
+            {
+                "id": "3",
+                "title": "1 Million",
+                "subTitle": "Assets Created"
+            },
+            {
+                "id": "4",
+                "title": "1.7 Million",
+                "subTitle": "Physicians Profiled"
+            }
+        ],
+        "testimonial": {
+            "id": "1",
+            "heading": "#FutureReadyHealthcare",
+            "title": "We are moving fast in Grunenthal on our Commercial transformation journey and the partnership with Indegene is a really important milestone.",
+            "name": "Florent Edouard",
+            "designation": "SVP, Global Head of Commercial Excellence",
+            "companyName": "Grunenthal"
+        },
+        "footer": {
+            "id": "1",
+            "topMenu": [
+                {
+                    "id": "1",
+                    "cta": "Privacy Policy",
+                    "ctaLink": "#"
+                },
+                {
+                    "id": "2",
+                    "cta": "CSR Policy",
+                    "ctaLink": "#"
+                }
+            ],
+            "bottomMenu": [
+                {
+                    "id": "1",
+                    "cta": "About us",
+                    "ctaLink": "#"
+                },
+                {
+                    "id": "2",
+                    "cta": "Capabilities",
+                    "ctaLink": "#"
+                },
+                {
+                    "id": "3",
+                    "cta": "Solutions",
+                    "ctaLink": "#"
+                },
+                {
+                    "id": "4",
+                    "cta": "Technology",
+                    "ctaLink": "#"
+                },
+                {
+                    "id": "5",
+                    "cta": "Segments",
+                    "ctaLink": "#"
+                },
+                {
+                    "id": "6",
+                    "cta": "Insights",
+                    "ctaLink": "#"
+                },
+                {
+                    "id": "7",
+                    "cta": "Careers",
+                    "ctaLink": "#"
+                },
+                {
+                    "id": "8",
+                    "cta": "News",
+                    "ctaLink": "#"
+                }
+            ]
+        }
+    }
+]
