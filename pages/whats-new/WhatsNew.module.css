@@ -1,0 +1,21 @@
+.whats_new_container {
+    margin: 0 1rem;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+}
+
+.whats_new_title {
+    margin: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #212122;
+}

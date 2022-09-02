@@ -1,0 +1,50 @@
+.trusted_partner {
+    margin: 1rem 0;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.trusted_partner_title {
+    margin: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.trusted_partner_case_studies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--brand-green);
+    color: var(--primary-text-color);
+    margin-bottom: 1rem;
+}
+
+.trusted_partner_case_studies_case_title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.trusted_partner_case_studies_case {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}

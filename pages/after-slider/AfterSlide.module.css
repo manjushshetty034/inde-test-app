@@ -1,0 +1,27 @@
+.afterslide_container {
+    margin: 30px 0;
+}
+
+.afterslide_container>.intro {
+    word-wrap: break-word;
+}
+
+.afterslide_container video {
+    width: 100%;
+    max-height: 100%;
+}
+
+.blue_outcome_box {
+    background-color: var(--primary-bg-color);
+    padding: 30px 5px;
+}
+
+.blue_outcome_box>.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blue_outcome_box>.boxes>.box {
+    width: 25%;
+    box-sizing: border-box;
+}
