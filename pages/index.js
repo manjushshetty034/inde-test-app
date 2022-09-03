@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      {details ? (
+      {details?.id ? (
         <>
           <Header logoUrl={details?.appBar?.logoUrl} topMenu={details?.appBar?.topMenu} menu={details?.appBar?.menu} />
           <Carousel items={details?.hero || []} />

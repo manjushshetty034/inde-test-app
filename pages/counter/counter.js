@@ -15,7 +15,7 @@ const Counter = ({ count, testimonial }) => {
 					alignItems="center"
 					sx={{ paddingTop: "2%", height: "50%", width: "100%" }}
 				>
-					{count.map((countItem) => (
+					{count?.map((countItem) => (
 						<Grid item key={countItem.id} sx={{ width: "20%", height: "60%", background: "#00C0F3" }}>
 							<Typography variant="h3">{countItem.title}</Typography>
 							<Typography variant="h6">{countItem.subTitle}</Typography>

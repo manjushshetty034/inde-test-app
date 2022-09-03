@@ -17,7 +17,7 @@ const Carousel = ({ items }) => {
     return (
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
-                {items.map((entry, index) => <div key={`carousel-item-${index}`} className={`carousel-item ${slider === index ? 'active' : ''}`}>
+                {items?.map((entry, index) => <div key={`carousel-item-${index}`} className={`carousel-item ${slider === index ? 'active' : ''}`}>
                 <img src={entry?.image || DEFAULT_HERO_IMAGE} className="d-block w-100" alt={entry?.title} />
                     <div className="carousel-caption d-none d-md-block">
                         <h5>{entry?.title}</h5>

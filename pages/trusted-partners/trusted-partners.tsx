@@ -3,7 +3,7 @@ import { Grid } from '@mui/material';
 import { DEFAULT_VIDEO_URL } from '../../utils/constants';
 import styles from './TrustedPartner.module.css';
 
- const TrustedPartners = ({ trustedPartner }: TrustedPartnerProps) => {
+const TrustedPartners = ({ trustedPartner }: TrustedPartnerProps) => {
     const [slider, setSlider] = useState(0);
     const onSlide = (type: string) => {
         switch (type) {
@@ -21,7 +21,7 @@ import styles from './TrustedPartner.module.css';
             <div id="carouselExampleControls" className={`${styles.trusted_partner} carousel slide`} data-bs-ride="carousel">
                 <div className="carousel-inner">
                     {trustedPartner?.map((entry, index) => <div key={`trusted-partner-${index}`} className={`carousel-item ${slider === index ? 'active' : ''}`}>
-                        <Grid container spacing={5}>
+                        <Grid container spacing={5} marginTop={'1rem'}>
                             <Grid xs={0} md={2} lg={2}></Grid>
                             <Grid xs={6} md={4} lg={4} className={styles.centered} marginRight={'1rem'}>
                                 <video controls width={"100%"} preload="none" poster={'/trusted_partners_video_thumbnail.jpeg'}>

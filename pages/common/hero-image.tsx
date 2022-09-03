@@ -8,7 +8,7 @@ const HeroImage = ({ content }) => {
                 <label>{content?.title}</label>
                 <p>{content?.description}</p>
                 <div className={styles.hero_text_actions}>
-                    {content?.ctaGroup.map((cta, index) => <Button key={`career-action-${index}`} color={'error'} variant="contained" onClick={() => window.open(cta?.ctaLink)}>{cta?.cta || "Learn More"}</Button>)}
+                    {content?.ctaGroup?.map((cta, index) => <Button key={`career-action-${index}`} color={'error'} variant="contained" onClick={() => window.open(cta?.ctaLink)}>{cta?.cta || "Learn More"}</Button>)}
                 </div>
             </div>
         </div>

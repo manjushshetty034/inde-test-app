@@ -38,7 +38,7 @@ const Header = ({ logoUrl, menu, topMenu }: HeaderProps) => {
 							#FutureReadyHealthCare
 						</Link>
 						<ul className="navbar-nav">
-							{topMenu?.length && topMenu.map((menuItem, index) => (
+							{topMenu?.length && topMenu?.map((menuItem, index) => (
 								<li key={`top-navbar-${index}`} className="nav-item">
 									<Link className="nav-link" href={`${menuItem?.toLocaleLowerCase()?.replace(" ", "-")}`}>
 										{menuItem}
@@ -100,16 +100,14 @@ const Header = ({ logoUrl, menu, topMenu }: HeaderProps) => {
 							<Image loader={imageLoader} alt={"Indegine Logo"} width={200} height={40} src={logoUrl || "https://www.indegene.com/sites/default/files/logo.svg"} />
 						</Link>
 						<ul className="navbar-nav">
-							{menu?.length &&
-								menu.map((menuItem, index) => (
-									<li key={`second-navbar-${index}`} className="nav-item">
-										<Link className="nav-link" href={`${menuItem?.toLocaleLowerCase()?.replace(" ", "-")}`}>
-											{menuItem}
-										</Link>
-									</li>
-								))}
+							{menu?.length && menu?.map((menuItem, index) => (
+								<li key={`second-navbar-${index}`} className="nav-item">
+									<Link className="nav-link" href={`${menuItem?.toLocaleLowerCase()?.replace(" ", "-")}`}>
+										{menuItem}
+									</Link>
+								</li>
+							))}
 						</ul>
-
 						{/* <form className="d-flex">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn btn-outline-success" type="submit">Search</button>

@@ -14,7 +14,7 @@ const Footer = ({ topMenu, bottomMenu }) => {
 						<Typography sx={{ fontSize: 16 }}>© 2022 Indegene. All Rights Reserved.</Typography>
 					</MenuItem>
 					<MenuItem>
-						{topMenu.map((menuItem) => (
+						{topMenu?.map((menuItem) => (
 							// <BottomNavigationAction sx={{ fontSize: 16 }} label={menuItem.cta} className={styles.container}></BottomNavigationAction>
 							<MenuItem key={menuItem.id}>{menuItem.cta}</MenuItem>
 						))}
@@ -32,7 +32,7 @@ const Footer = ({ topMenu, bottomMenu }) => {
 
 			{bottomMenu ? (
 				<BottomNavigation className={styles.container} flex={1} sx={{ left: 0, alignItems: "center", justifyContent: "space-evenly", fontSize: 16 }}>
-					{bottomMenu.map((menuItems) => (
+					{bottomMenu?.map((menuItems) => (
 						<MenuItem key={menuItems.id}>{menuItems.cta}</MenuItem>
 					))}
 				</BottomNavigation>
